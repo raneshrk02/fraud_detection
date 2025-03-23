@@ -7,18 +7,18 @@ This project implements a machine learning system to detect fraudulent credit ca
 ```
 fraud_detection/
 |
-|--- datasets/                      # Contains all data files
+|--- datasets/                    # Contains all data files
 |   |-- fraudTrain.csv            # Original training dataset
 |   |-- fraudTest.csv             # Original test dataset
 |   |-- train_df.csv              # Processed training data
 |   |-- test_df.csv               # Processed test data
 |
-|--- utils/                         # Utility scripts and notebooks
+|--- utils/                       # Utility scripts and notebooks
 |   |-- model.ipynb               # Model training and evaluation
 |   |-- EDA.ipynb                 # Exploratory data analysis
 |
-|--- requirements.txt               # Project dependencies
-|---README.md                      # Project documentation
+|--- requirements.txt             # Project dependencies
+|---README.md                     # Project documentation
 ```
 Note: './datasets' would be empty before running the code, dataset is stored in this directory once it is downloaded/created.
 
